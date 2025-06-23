@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ticketsystem.TicketServiceTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2025-06-22T23:53:29" hostname="DESKTOP-4VL2RB2" time="0.057">
+  <properties/>
+  <testcase name="testPrintStatistics_doesNotThrow()" classname="ticketsystem.TicketServiceTest" time="0.043"/>
+  <testcase name="testGenerateTickets_updatesSeverityCountsCorrectly()" classname="ticketsystem.TicketServiceTest" time="0.004"/>
+  <testcase name="testGenerateTickets_addsExpectedNumberOfTickets()" classname="ticketsystem.TicketServiceTest" time="0.002"/>
+  <testcase name="testGenerateTickets_closedErrorTickets_inExpectedRange()" classname="ticketsystem.TicketServiceTest" time="0.004"/>
+  <testcase name="testGenerateTickets_openTicketsWithCVE_inExpectedRange()" classname="ticketsystem.TicketServiceTest" time="0.001"/>
+  <system-out><![CDATA[Severity Statistics:
+ERROR: 4
+WARNING: 4
+INFORMATION: 2
+
+CVE Statistics:
+CVE-1111: 2
+CVE-2222: 3
+
+Open tickets with CVE: 3
+Closed tickets with severity ERROR: 2
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

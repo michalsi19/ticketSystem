@@ -1,0 +1,11 @@
+Severity Statistics:
+	ERROR: 4
+WARNING: 4
+INFORMATION: 2
+
+CVE Statistics:
+CVE-1111: 2
+CVE-2222: 3
+
+Open tickets with CVE: 3
+'Closed tickets with severity ERROR: 2
